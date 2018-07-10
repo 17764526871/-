@@ -1,0 +1,157 @@
+body {
+	background: #fff;
+}
+/*top 开始*/
+
+.top .logo {
+	height: 83px;
+	background:  url(../images/logo.png) no-repeat left center;
+	border-bottom: 2px solid #c81623;
+}
+
+
+/*top 结束*/
+
+/*zhuce 开始*/
+
+.zhuce .w {
+	margin-top:15px ;
+	background: #ececec;
+	margin-bottom: 54px;
+
+}
+.zhuce .w h3 {
+	font-size: 18px;
+	font-weight: 700;
+	height: 42px;
+	line-height: 42px;
+	padding-left: 8px;
+}
+.zhuce .w span {
+	height: 42px;
+	line-height: 42px;
+}
+.zhuce .w a {
+	height: 42px;
+	line-height: 42px;
+	color: #c81623 ;
+	padding-right: 8px;
+}
+
+
+/*zhuce 结束*/
+
+/*input 开始*/
+.input .w {
+	height: 480px;
+	border-bottom: 1px solid #ccc;
+}
+.input .w .left {
+	width: 641px;
+	float: left;
+	text-align: right;
+
+}
+.input .w .left span {
+	margin-right: 5px;
+}
+.input .w .left img {
+	position: relative;
+	top: -15px;
+}
+.input .w .left p {
+	display: inline-block;
+	
+
+}
+.input .w .left p>span {
+	margin: 0 5px;
+	color: #25a5e7 ;
+}
+.input .w .left input {
+	width: 240px;
+	height: 36px;
+	border: 1px solid #ccc;
+	vertical-align: center;
+	margin-bottom: 20px;
+
+}
+.input .w .left input[type="checkbox"] {
+	width: 14px;
+	height: 15px;
+	vertical-align: bottom;
+	margin-bottom: 0;
+	margin-right: 5px;
+	
+
+}
+.input .w .left input[type="button"] {
+	margin-top: 50px;
+	width: 200px;
+	height: 34px;
+	margin-bottom: 0px;
+	background: #c81623;
+	color: #fff;
+	font-size: 14px;
+
+}
+.input .w .right p:nth-child(1) {
+	height: 36px;
+	line-height: 36px;
+	margin-bottom: 80px;
+	color: #c81623;
+	
+}
+.input .w .right p:nth-child(2) {
+	height: 36px;
+	line-height: 36px;
+	margin-bottom: 40px;
+	color: #c81623;
+	
+}
+.input .w .right p:nth-child(3) {
+	height: 36px;
+	line-height: 36px;
+	color: #c81623;
+	
+}
+.input .w .right p img {
+	margin: 0 4px;
+}
+/*input 结束*/
+
+
+/*last 开始*/
+.last {
+	padding-top: 21px;
+	text-align: center;
+}
+.last ul {
+	margin: 0 auto;
+	width: 1011px;
+	margin-bottom: 10px;
+}
+.last ul li {
+	float: left;
+	
+}
+.last ul li>a {
+    width: 79px;
+    display: inline-block;
+    color: #666666;
+}
+.br::after {
+	content: "";
+	height: 13px;
+	width: 1px;
+	background: #ccc;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+}
+.last p {
+	height: 22px;
+	line-height: 22px;
+	color: #666666;
+}
+/*last 结束*/

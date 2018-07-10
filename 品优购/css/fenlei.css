@@ -1,0 +1,317 @@
+body {
+	background: #fff;
+}
+
+/*top 开始*/
+.top {
+	height: 31px;
+	background: #f1f1f1;
+}
+.top span {
+	height: 31px;
+	line-height: 31px;
+	margin-right: 5px;
+}
+
+.top a {
+	height: 31px;
+	line-height: 31px;
+	color: #c81623;
+}
+.top ul li {
+	float: left;
+}
+.top ul li::after {
+	content: "";
+	width: 1px;
+	height: 12px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	background: #ccc;
+}
+
+.top ul li>a {
+	display: inline-block;
+	color: #666666;
+	padding: 0 12px;
+}
+.top ul li i {
+	position: relative;
+	top: 2px; 
+	margin-left: 5px;
+}
+/*top 结束*/
+
+/*logo 开始*/
+.logo {
+	height: 77px;
+	padding-top: 28px;
+}
+.logo .pyg_logo1 {
+	width: 171px;
+	height: 62px;
+	background: url(../images/logo.png) no-repeat center ;
+}
+.logo .pyg_logo2 {
+	width: 71px;
+	height: 32px;
+	margin-left: 5px;
+	margin-top: 10px;
+	background: url(../images/sec-kill.png) no-repeat center ;
+}
+.logo .input {
+	width: 534px;
+	height: 33px;
+	margin: 0 auto;
+	border: 2px solid #b1191a;
+}
+.logo .input .left {
+	height: 33px;
+	width: 455px;
+	text-indent: 1em;
+	color:  #666666;
+}
+.logo .input .right {
+	width: 79px;
+	height: 33px;
+	background: #b1191a;
+	color: white;
+	font-size: 16px;
+}
+.logo ul li>a {
+	line-height: 30px;
+	padding: 0px 12px;
+
+}
+.logo ul li:nth-child(1) a {
+	color: #b1191a;
+}
+.logo ul {
+	width: 538px;
+	display: block;
+	margin: 0 auto;
+}
+.logo ul li {
+	float: left;
+}
+.logo .gw {
+	height: 37px;
+	line-height: 37px;
+	width: 130px;
+	border: 1px solid #ccc;
+	background: #f7f7f7;
+	text-align: center;
+	vertical-align: bottom;
+	position: relative;
+	margin-right: 65px;
+
+}
+.logo .gw s {
+	margin-right: 5px;
+	color: #b1191a;
+
+}
+.logo .gw i {
+	margin-left: 8px;
+	position: relative;
+	top: 2px;
+}
+.logo .gw .shuzi {
+
+	width:17px;
+	border-radius: 50% 50% 50% 0px;
+	background: #b1191a;
+	position: absolute;
+	top: -29px;
+	right: 18px;
+	color: #fff;
+	font-size: 14px;
+
+}
+.xhz::after {
+	content: "";
+	width: 200px;
+	height:400px;
+	background: #fff;
+	border: 1px solid #ccc;
+	position: absolute;
+	right: -12px;
+	display: none;
+	z-index: 2;
+}
+
+a:hover  .xhz::after {
+	display: block;
+}
+
+/*logo 结束*/
+
+/*nav 开始*/
+.nav {
+
+	background: #fff;
+	border-bottom: 2px solid #b1191a;
+}
+.nav .all {
+	
+	width: 210px;
+	background: #b1191a;
+}
+.nav .all h3 {
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+
+}
+.nav ul li {
+	float: left;
+}
+.nav ul li a {
+	font-size: 16px;
+	color: #000;
+	height: 46px;
+	line-height: 46px;
+	padding-left:47px ;
+}
+/*nav 结束*/
+
+/*banner 开始*/
+.banner .w {
+	height: 121px;
+	background: url(../images/bannerbg.png) no-repeat center;
+	text-align: center;
+}
+.banner .one {
+	margin-top: 30px;
+	color: #b1191a;
+	font-size: 24px;
+	font-weight: bold;
+}
+.banner .one i {
+	font-size: 30px;
+	position: relative;
+	top: 3px;
+}
+.banner .two {
+	margin-top: 25px;
+	color: black;
+	font-size: 14px;
+}
+.banner .two i {
+	height: 2px;
+	width: 53px;
+	display: inline-block;
+	background: #000;
+	margin:0 20px;
+	position: relative;
+	top: -3px;
+}
+/*banner 结束*/
+
+
+/*bottom 开始*/
+
+.fw {
+	width: 202px;
+	height: 79px;
+	padding: 30px 0px 0px 38px;
+	border-bottom: 1px solid #ccc;
+	float: left;
+}
+.fw .img {
+	width: 50px;
+	height: 49px;
+	margin-right: 6px;
+	float: left;
+	background:url(../images/icons.png) no-repeat -253px -3px;
+}
+.fw h3 {
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #000;
+
+}
+.fw p {
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #666666;
+}
+.dl {
+	border-bottom: 1px solid #ccc;
+	padding-top: 12px;
+	height: 176px;
+
+}
+.dl dl {
+	width: 146px;
+	padding-left: 52px;
+	float: left;
+}
+.dl dl dt {
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+
+}
+.dl dl dd {
+	height: 20px;
+	line-height: 20px;
+
+}
+.dl dl .ma {
+	width: 90px;
+	height: 90px;
+	background: url(../images/wx_cz.jpg);
+	margin-top: 10px;
+	position: relative;
+	left: -10px;
+
+}
+.dl dl p {
+	height: 20px;
+	line-height: 20px;
+	color: black;
+}
+
+.last {
+	padding-top: 21px;
+	text-align: center;
+}
+.last ul {
+	margin: 0 auto;
+	width: 1011px;
+	margin-bottom: 10px;
+}
+.last ul li {
+	float: left;
+	
+}
+.last ul li>a {
+    width: 79px;
+    display: inline-block;
+    color: #666666;
+}
+.br::after {
+	content: "";
+	height: 13px;
+	width: 1px;
+	background: #ccc;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+}
+.last p {
+	height: 22px;
+	line-height: 22px;
+	color: #666666;
+}
+
+/*bottom 结束*/

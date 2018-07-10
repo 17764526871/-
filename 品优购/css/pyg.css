@@ -1,0 +1,392 @@
+
+/*top 开始*/
+.top {
+	
+	color: #f1f1f1;
+}
+.top span {
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	color: #666666;
+
+}
+.top span:nth-child(2) {
+	margin: 0 15px;
+}
+.top a {
+	color: #c81623;
+	float: left;
+	height: 31px;
+	line-height: 31px;
+}
+.top ul>li {
+	float: left;
+	
+}
+.top ul>li>a {
+	display: inline-block;
+	height: 31px;
+	line-height: 31px;
+	padding: 0px  16px;
+	color: #666666;
+	position: relative;
+	
+}
+.top ul>li i {
+/*	background: url(../images/xiajiantou.png) no-repeat left center;*/
+	width: 1px;
+	height: 12px;
+	border-right: 1px solid #ccc;
+	display: inline-block;
+	margin-top:10px ;
+}
+.top ul>li s {
+	display: inline-block;
+}
+.xjt {
+   background: url(../images/xiajiantou.png) no-repeat right center;
+   margin-right: 10px;
+}
+.xhz::before{
+	content: "";
+	width: 200px;
+	height: 100px;
+	/*display: block;*/
+	background: #fff;
+	border: 1px solid #ccc;
+	position: absolute;
+	right: 0px;
+	top: 100%;
+	display: none;
+}
+
+.top ul>li>a:hover .xhz::before {
+	display: block;
+}
+
+/*top 结束*/ 
+
+/*logo 开始*/
+.logo {
+	height: 80px;
+	background: #fff;
+	padding-top: 27px;
+
+}
+.logo .pyg_logo {
+	height: 55px;
+	width: 353px;
+	background: url(../images/icons.png) no-repeat -372px -13px;
+}
+.logo .input {
+	height: 33px;
+	width: 534px;
+	border: 2px solid #b1191a;
+}
+.logo .input .left {
+	height: 33px;
+	width: 455px;
+	text-indent: 1em;
+	color:  #666666;
+}
+.logo .input .right {
+	width: 79px;
+	height: 33px;
+	background: #b1191a;
+	color: white;
+	font-size: 16px;
+}
+.logo ul li {
+	float: left;
+}
+.logo ul li>a {
+	line-height: 30px;
+	padding: 0px 12px;
+
+}
+.logo ul li:nth-child(1) a {
+	color: #b1191a;
+}
+
+.logo .gw {
+	width: 140px;
+	height: 40px;
+	background: url(../images/che.png) ;
+	position: relative;
+	top: -40px;
+}
+
+/*logo 结束*/
+
+/*nav 开始*/
+.nav {
+
+	background: #fff;
+	border-bottom: 2px solid #b1191a;
+}
+.nav .all {
+	
+	width: 210px;
+	background: #b1191a;
+}
+.nav .all h3 {
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+
+}
+.nav ul li {
+	float: left;
+}
+.nav ul li a {
+	font-size: 16px;
+	color: #000;
+	height: 46px;
+	line-height: 46px;
+	padding-left:47px ;
+}
+/*nav 结束*/
+
+/*banner 开始*/
+.banner {
+	/*height: 467px;*/
+	background: #fff;
+}
+.banner .list {
+	width: 209px;
+	height: 467px;
+
+}
+.banner .list ul li>a {
+	height: 31px;
+	display: inline-block;
+	line-height: 31px;
+	color: #fff;
+	width: 199px;
+	background: #c81623 url(../images/youjiantou.png) no-repeat 182px center;
+	padding-left:  11px;
+	
+
+}
+.banner .list ul li>a:hover {
+	background: #fff;
+	color: #c81623
+}
+
+
+.banner .gg .le {
+	height: 450px;
+	margin-top: 10px;
+	margin-left: 11px;
+	width: 722px;
+	height: 456px;
+}
+.banner .gg .ri {
+	margin-top: 10px;
+	margin-left: 6px;
+}
+/*banner 结束*/
+
+/*tuijian 开始*/
+.tuijian {
+	padding-top: 10px;
+	background: #fff;
+	padding-bottom: 26px;
+	/*height: 163px;*/
+}
+.tuijian .w {
+	border: 1px solid black;
+	height: 163px;
+}
+
+
+.tuijian .taday {
+	height: 163px;
+	width: 210px;
+	float: left;
+	background: #5c5251 url(../images/clock.png) no-repeat 74px 30px;
+	
+}
+.tuijian .taday h3 {
+	margin-top: 98px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+.tuijian .hao {
+	width: 248px;
+	height: 162px;
+	float: left;
+	background: #ebebeb url(../images/ss.png) no-repeat center;
+	
+}
+.tuijian .hao i {
+	width: 1px;
+	height: 142px;
+	background: #dddddd;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+
+/*tuijian 结束*/
+
+/*like 开始*/
+.like {
+	background: #fff;
+}
+.like h3 {
+	height: 33px;
+	line-height: 33px;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	margin-bottom: 10px;
+}
+.like a {
+	float: right;
+	height: 33px;
+	line-height: 33px;
+}
+.like a i {
+	margin-left: 9px;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+.like .cp {
+	height: 233px;
+	border: 1px solid #ccc;
+}
+.like .bao {
+	width: 200px;
+	height: 233px;
+	float: left;
+	background: url(../images/bao.png) no-repeat center;
+}
+.like .cp i {
+	height:64px;
+	width: 1px;
+	display: inline-block;
+	background: #ccc; 
+	margin-top: 162px;
+}
+/*like 结束*/
+
+/*ppp 开始*/
+
+.ppp {
+	background: #fff;
+	padding-top: 20px;
+}
+
+
+/*chuanzhi 结束*/
+
+
+
+/*bottom 开始*/
+
+
+ .fw {
+	width: 202px;
+	height: 79px;
+	padding: 30px 0px 0px 38px;
+	border-bottom: 1px solid #ccc;
+	float: left;
+}
+.fw .img {
+	width: 50px;
+	height: 49px;
+	margin-right: 6px;
+	float: left;
+	background:url(../images/icons.png) no-repeat -253px -3px;
+}
+.fw h3 {
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #000;
+
+}
+.fw p {
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #666666;
+}
+.dl {
+	border-bottom: 1px solid #ccc;
+	padding-top: 12px;
+	height: 176px;
+
+}
+.dl dl {
+	width: 146px;
+	padding-left: 52px;
+	float: left;
+}
+.dl dl dt {
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+
+}
+.dl dl dd {
+	height: 20px;
+	line-height: 20px;
+
+}
+.dl dl .ma {
+	width: 90px;
+	height: 90px;
+	background: url(../images/wx_cz.jpg);
+	margin-top: 10px;
+	position: relative;
+	left: -10px;
+
+}
+.dl dl p {
+	height: 20px;
+	line-height: 20px;
+	color: black;
+}
+
+.last {
+	padding-top: 21px;
+	text-align: center;
+}
+.last ul {
+	margin: 0 auto;
+	width: 1011px;
+	margin-bottom: 10px;
+}
+.last ul li {
+	float: left;
+	
+}
+.last ul li>a {
+    width: 79px;
+    display: inline-block;
+    color: #666666;
+}
+.br::after {
+	content: "";
+	height: 13px;
+	width: 1px;
+	background: #ccc;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+}
+.last p {
+	height: 22px;
+	line-height: 22px;
+	color: #666666;
+}
+/*bottom 结束*/
