@@ -1,0 +1,178 @@
+/*top 开始*/
+.top {
+	
+	background: #333333;
+}
+.top ul li {
+	float: left;
+}
+.top ul li>a {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 8px;
+	color: #fff;
+}
+.top ul li i {
+	height: 11px;
+	width: 1px;
+	display: inline-block;
+	background: #fff;
+
+}
+/*top 结束*/
+
+/*nav 开始*/
+.nav {
+	padding: 23px 0px;
+	background: #fff;
+}
+.nav .logo {
+	height: 55px;
+	width: 55px;
+	background: url(../images/logo.png);
+}
+.nav .shou {
+	margin-right: 10px;
+}
+.nav ul li {
+	float: left;
+}
+.nav ul li>a {
+	height: 52px;
+	line-height: 52px;
+	color: black;
+	font-size: 14px;
+	padding: 0px 14px;
+}
+/*nav 结束*/
+
+/*banner 开始*/
+.banner {
+	background: #fff;
+	padding-bottom: 15px;
+}
+.banner .left {
+	width: 184px;
+	height: 440px;
+	padding: 20px 25px 0px 30px;
+	background: #2C505F;
+}
+.banner .left ul li>a {
+	height: 42px;
+	display: block;
+	width: 181px;
+	line-height: 42px;
+	color: #fff;
+	background: url(../images/youjiantou.png) no-repeat right center;
+
+}
+.banner .right {
+	width: 985px;
+	height: 460px;
+	background: url(../images/banner.png);
+}
+/*banner 结束*/
+
+/*ad 开始*/
+.ad {
+	background: #fff;
+}
+.ad .one {
+	width: 235px;
+	height: 124px;
+	background: #5F5750;
+	padding-top:47px ;
+	text-align: center;
+	margin-right: 14px;
+
+}
+.ad .one p {
+	height: 39px;
+	line-height: 39px;
+	color: #fff;
+}
+.ad .two img {
+	height: 171px;
+	width: 315px;
+	margin-right: 14px;
+}
+.ad .mr img {
+	margin-right: 0px;
+}
+/*ad 结束*/
+
+/*fw 开始*/
+.fw {
+	height: 245px;
+	background: #fff;
+	padding-top: 90px;
+}
+.fw dl {
+	width: 159px;
+	height: 127px;
+	float: left;
+}
+.fw dl dt {
+	color: black;
+	font-size: 14px;
+	margin-bottom: 22px;
+}
+.fw dl dd {
+	height:29px;
+	line-height: 29px;
+	color: #757575;
+
+}
+.fw .tel {
+	width: 251px;
+	height: 110px;
+	border-left: 1px solid #ccc;
+	text-align: center;
+
+}
+.fw .tel h3 {
+	font-size: 18px;
+	color: #FF6762;
+	
+}
+.fw .tel p {
+	height: 20px;
+	line-height: 20px;
+}
+/*fw 结束*/
+
+/*last 开始*/
+.last {
+	height: 127px;
+	padding-top: 30px;
+	background: url(../images/slogan2016.png) no-repeat center bottom;
+}
+
+.last .logo {
+	height: 55px;
+	width: 55px;
+	background: url(../images/logo.png);
+	margin-right: 5px;
+}
+.last ul li {
+	float: left;
+}
+.last ul li>a {
+	color: black;
+	
+	padding: 0px 5px;
+}
+.last ul li i {
+	height:12px;
+	width: 1px;
+	display: inline-block;
+	background: #000; 
+}
+.last p {
+	float: left;
+	height: 20px;
+	line-height: 20px;
+
+}
+
+/*last 结束*/
