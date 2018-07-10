@@ -1,0 +1,563 @@
+
+/*logo 开始*/
+	.logo {
+		height: 100px;
+		/*background: red;*/
+	}
+	.logo .logo_banxin {
+		width: 1334px;
+		padding-top: 30px;
+		/*background: pink;*/
+		margin: 0 auto;
+	}
+	.logo .logo_banxin .logo_xc {
+		height: 41px;
+		width: 195px;
+		background: url(../images/logo.png);
+		margin-right: 33px;
+	}
+	.logo .logo_banxin li {
+		float: left;
+		height: 38px;
+		line-height: 38px;
+		margin-right: 27px;
+	}
+	.logo .logo_banxin li>a {
+		padding: 0px 10px;
+		color: black;
+		font-size: 18px;
+		height: 38px;
+
+	}
+	.logo .logo_banxin li:hover {
+		font-weight: bold;
+		border-bottom: 2px solid #00a4ff;
+	}
+	.logo .logo_banxin .input {
+		width: 410px;
+		height: 80px;
+
+	}
+	.logo .input input[type="text"] {
+		width: 360px;
+		height: 38px;
+		border: 1px solid rgb(0, 164, 255);
+		vertical-align: top;
+		text-indent: 2em;
+	}
+	.logo .input input[type="button"] {
+		width: 48px;
+		height: 40px;
+		background:  #00a4ff url(../images/search.png) no-repeat center;
+	}
+	.logo .user .user_center {
+		width: 48px;
+		height: 40px;
+		line-height: 40px;
+		margin: 0 12px;
+		color: #666;
+		font-size: 14px;
+		
+	}
+	.logo .user .msg {
+		margin-top: 5px;
+		margin-right: 10px;
+
+	}
+	.logo .user .icon {
+		height: 30px;
+		width: 30px;
+		border-radius: 50%;
+		/*margin-top: 5px;*/
+		margin-right: 20px;
+	}
+	.logo .user .icon>img {
+		/*height: 30px;
+		width: 30px;*/
+	}
+	.logo .user .username {
+		height: 40px;
+		line-height: 40px;
+		color: #666;
+		font-size: 14px;
+	}
+	
+/*logo 结束*/
+
+/*banner 开始*/
+	.banner {
+		height: 420px;
+		background: #1c036c;
+	}
+	.banner .content {
+		height: 420px;
+		background: url(../images/banner.png) ;
+		position: relative;
+	}
+	.banner .content .list {
+		height: 409px;
+		width: 160px;
+		background: rgba(0,0,0,0.3);
+		padding-top: 11px;
+		padding-left: 20px;
+	}
+	.banner .content .list ul li {
+		height: 45px;
+		width:160px; 
+		line-height: 45px;
+		font-size: 14px;
+
+	}
+	.banner .content .list ul li>a {
+		color: #ffffff;
+		height: 45px;
+		width:150px; 
+		line-height: 45px;
+		font-size: 14px;
+		display: block;
+		background: url(../images/jiantou2.png) no-repeat right 18px;
+	}
+	.banner .content .list ul li>a:hover {
+		background: url(../images/jiantou1.png) no-repeat right 18px;
+		color:#00b4ff;
+	}	
+	.banner .content .dian ul {
+		width: 162px;
+		height: 46px;
+		position: absolute;
+		bottom: 0px;
+		left: 50%;
+
+		transform: translateX(-70%);
+	}
+	.banner .content .dian ul li {
+		width: 27px;
+		height: 46px;
+		float:left;
+		background: url(../images/dian2.png) no-repeat center top;
+	}
+	.banner .content .dian ul li:first-child {
+		width: 27px;
+		height: 46px;
+		background: url(../images/dian1.png) no-repeat center top;
+	}
+	.banner .content .table {
+		width: 228px;
+		height: 300px;
+		background: #fff;
+		position: absolute;
+		top: 50px;
+		right: 0px;
+	}
+	.banner .content .table h2 {
+		height: 48px;
+		line-height: 48px;
+		text-align: center;
+		background: #9bceea;
+		font-size: 18px;
+		font-weight: bold;
+		color: white;
+		margin-bottom: 11px;
+	}
+	.banner .content .table ul li {
+		width: 192px;
+		height: 60px;
+		margin: 0 auto;
+
+	}
+	.banner .content .table ul li:nth-child(2) {
+		border-top: 1px solid #efefef;
+		border-bottom: 1px solid #efefef;
+	}
+	.banner .content .table  p:nth-child(1) {
+		font-size: 14px;
+		color: black;
+		padding-top: 8px;
+		padding-bottom:5px ;
+	}
+	.banner .content .table  p:nth-child(2) {
+		font-size: 12px;
+		color: #a5a5a5;
+	}
+	.banner .content .table li:nth-child(3) p {
+		color: #26abff;
+	}
+	.banner .content .table input {
+		width: 198px;
+		height: 38px;
+		border: 1px solid #26abff;
+		color: #26abff;
+		position: absolute;
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+		bottom: 12px;
+		right: 14px;
+
+	}
+
+
+
+/*banner 结束*/
+
+
+/*tuijian_nav 开始*/
+
+.tuijian_nav {
+	margin-top:8px ;
+	margin-bottom: 16px;
+	height: 60px;
+	background: #f3f5f7;
+}
+.tuijian_nav .w {
+	padding-top: 21px;
+	height: 39px;
+	background: #fff;
+	box-shadow: 0px 1px 2px 0px #ccc;
+}
+.tuijian_nav h3 {
+	width: 132px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00a4ff;
+	float: left;
+}
+.tuijian_nav ul li {
+	
+	float: left;
+}
+.tuijian_nav ul li>a {
+	width: 132px;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+}
+.tuijian_nav ul li::before {
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 16px;
+	background: #ccc;
+}
+.tuijian_nav .like {
+	margin-right: 61px;
+	font-size: 14px;
+	color: #00a4ff;
+}
+
+/*tuijian_nav 结束*/
+
+
+/*tuijian 开始*/
+.tuijian {
+	height: 632px;
+	color: #f3f5f7;
+
+}
+.tuijian h3 {
+	height: 61px;
+	line-height: 61px;
+	font-size: 20px;
+	color: #494949;
+	/*float: left;*/
+}
+.tuijian a {
+	font-size: 14px;
+	margin-top: 25px;
+	margin-right:31px ;
+	color: #a5a5a5;
+	float: right;
+}
+ .card {
+	width: 229px;
+	height: 270px;
+	margin-right: 13px;	
+	margin-bottom: 20px;
+	position: relative;
+	
+}
+.card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0px 5px 10px 5px #666;
+	transition: all 1s;
+}
+
+.mr0 {
+	margin-right: 0px !important;
+}
+ .card .img img {
+	width: 229px;
+	display: block;
+}
+ .card .wz {
+	padding: 20px 24px;
+	margin: 3px;
+	margin-top: 0px;
+	background: #fff;
+
+}
+ .card .wz p {
+	height: 20px;
+	line-height: 20px;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+ .card .wz .gj {
+	margin-top: 40px;
+}
+.tuijian .gj span:nth-child(1)  {
+	color: #ff9159 ;
+}
+.tuijian .gj span:nth-child(2)  {
+	color: #999999 ;
+	margin:5px 8px;
+}
+.tuijian .gj span:nth-child(3) {
+	color: #999999 ;
+}
+.tuijian .card:nth-child(1) {
+	
+}
+
+.new::before,
+.old::before,
+.hot::before {
+
+	content: '';
+	display: inline-block;
+	width: 40px;
+	height: 24px;
+	position: absolute;
+	right: -3px;
+	top: 10px;
+}
+
+.new::before {
+
+	background: url(../images/new.png) no-repeat center;
+}
+
+.hot::before {
+
+	background: url(../images/hot.png) no-repeat center;
+}
+
+.old::before {
+
+	background: url(../images/old.png) no-repeat center;
+}
+
+
+/*tuijian 结束*/
+
+
+/*cb 开始*/
+.cb {
+	width: 157px;
+	height: 415px;
+	background: #fff;
+	position:fixed;
+	left: 0px;
+	bottom: 0px;
+	padding-top: 10px;
+	padding-left: 26px;
+}
+.cb ul li>a {
+	color: black;
+	font-size: 14px;
+	height: 47px;
+	line-height: 47px;
+
+}
+.cb ul li>a:hover {
+	color: #00a4ff;
+
+}
+
+/*cb 结束*/
+
+/*nav_head 开始*/
+.nav_head {
+	height: 64px;
+	margin-top:16px ;
+}
+.nav_head h3 {
+	font-size: 20px;
+	line-height: 64px;
+	float: left;
+	color: black;
+	height: 64px;
+	width: 432px;
+}
+.nav_head .nav_center ul li {
+	float: left;
+}
+.nav_head .nav_center ul li>a {
+	height: 64px;
+	width: 102px;
+	display: inline-block;
+	line-height: 64px;
+	font-size: 14px;
+	color: #868686
+
+}
+.nav_head .nav_center ul li>a:hover {
+	color: #00a4ff
+}
+
+.nav_head .all {
+	font-size: 14px;
+	margin-top: 25px;
+	margin-right:31px ;
+	color: #a5a5a5;
+	float: right;
+
+}
+
+
+/*nav_head 结束*/
+
+/*php 开始*/
+.php {
+	float: left;
+	width: 228px;
+	height: 392px;
+	background: url(../images/php_02.png);
+	margin-right: 14px;
+}
+.kuaile {
+	width: 957px;
+	height: 100px;
+	float: right;
+	margin-bottom: 20px;
+	background: red url(../images/kuaile.png);
+}
+
+
+
+/*php 结束*/
+
+/*nr 开始*/
+.nr {
+	height: 64px;
+	margin-top:16px ;
+}
+.nr .nr_head h3 {
+	font-size: 20px;
+	line-height: 64px;
+	float: left;
+	color: black;
+	height: 64px;
+	width: 432px;
+}
+.nr .nr_body .teacher {
+	width: 229px;
+	height: 310px;
+	background: url(../images/tang.png) center;
+	overflow: hidden;
+	float: left;
+	margin-right: 9px;
+	margin-bottom: 33px;
+	position: relative;
+
+}
+.nr .nr_body .teacher .wz {
+	background:rgba(0,0,0,0.4);
+	width: 171px;
+	height: 220px;
+	color: white;
+	padding:90px 29px 0px;
+	font-size: 14px;
+	position: relative;
+	top: 50%;
+	
+
+}
+.nr .nr_body .teacher .wz:hover {
+	position: relative;
+	top: 0px;
+}
+.nr .nr_body .teacher .wz h4 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+
+}
+.nr .nr_body .teacher .wz span {
+	font-size: 12px;
+	margin-left: 8px;
+}
+.nr .nr_body .teacher .wz p {
+	margin-bottom: 15px;
+}
+
+.xx::before {
+	content: "";
+	display: inline-block;
+	width: 84px;
+	height: 40px;
+	position: absolute;
+	top: 11px;
+	right: -2px;
+	background: url(../images/xx.png)no-repeat center;
+}
+
+
+/*nr 结束*/
+
+
+/*footer 开始*/
+.footer {
+	height: 240px;
+	margin-top: 98px;
+	background: #fff;
+	padding-top:33px ;
+	
+}
+.footer .logo {
+	float: left;
+
+}
+.footer .logo img {
+	margin-bottom: 25px;
+}
+.footer .logo p {
+	height: 20px;
+	line-height: 20px;
+}
+.footer .logo input {
+	width: 122px;
+	height: 36px;
+	color: #00a4ff;
+	border: 2px solid #00a4ff;
+	line-height: 36px;
+	text-align: center;
+	margin-top: 7px;
+	
+}
+.footer .list dl {
+	float: left;
+	width: 250px;
+	height: 135px;
+
+}
+.footer .list dl dt {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.footer .list dl dd {
+	height: 22px;
+	line-height: 22px;
+}
+.footer .list dl:nth-child(3) {
+	width: 80px;
+}
+.footer .list dl a {
+	color: black;
+}
+/*footer 结束*/
+
